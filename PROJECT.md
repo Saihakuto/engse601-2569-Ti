@@ -21,7 +21,7 @@
 
 | รายการ | URL / Reference | หมายเหตุ |
 |---|---|---|
-| ENGSE212 project repository | [กรอก] | ระบุ default branch |
+| ENGSE212 project repository | https://github.com/Saihakuto/engse601-2569-Ti | ระบุ default branch |
 | Issue/Project board | [กรอก] | ถ้ามี |
 | Prototype/Demo | [กรอก] | ถ้ามี |
 | Course materials / LMS | [กรอก] | ห้ามใส่ credential |
