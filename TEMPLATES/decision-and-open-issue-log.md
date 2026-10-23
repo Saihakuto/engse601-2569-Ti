@@ -1,5 +1,10 @@
-# Decision and Open Issue Log
+# Decision and Open Issue Log · ทีม Ti
 
 | ID | Type | Question / decision needed | Source / affected artifact | Evidence currently available | Decision owner | Due | Status | Decision / next action | Impact on next phase |
 |---|---|---|---|---|---|---|---|---|---|
-| DI-01 | Decision / Open Issue | [กรอก] | [กรอก] | [กรอก] | [กรอก] | [กรอก] | Open / Decided / Deferred | [กรอก] | [กรอก] |
+| DI-01 | Open Issue | ผู้จัดการยืนยันจ่ายสินค้าได้หรือไม่ (BR-02 “พนักงานคลังเท่านั้น” ขัดกับ UC-07 และ 2.3) | Use Case SRS v2.0 §5.5, §4.7 · S1-B ขั้นที่ 4 · W03 OQ-01 · W04 RV-01, GA-01 · S2-B OI-01 | โค้ด `soml/backend/app.js` บรรทัด 52 อนุญาต warehouse และ manager | เจ้าของร้านอำพรคอนกรีต | ก่อนออก SRS ฉบับถัดไป | Open | ตรัยรัตน์ถามเจ้าของร้าน แล้วแก้ BR-02 | ชุดกรณีทดสอบ v2 ต้องเพิ่มกรณีผู้จัดการ · ผลที่คาดหวังเขียนไม่ได้จนกว่าจะตัดสิน |
+| DI-02 | Open Issue | การนับสินค้าจริงเพื่อยืนยัน BR-02 นับกี่รายการ วันไหน ยอมคลาดได้หรือไม่ | Use Case SRS v2.0 TBD-02 · W03 OQ-02 · W04 RV-05, GA-02 | UAT ที่ร้าน 16–20 ต.ค. 2569 ไม่ได้นับสต็อก (UAT-05 ไม่มีข้อมูล) | เจ้าของร้าน + ตรัยรัตน์ | ก่อน UAT นับสต็อก | Open | เสนอ 5 รายการที่ขายบ่อย นับก่อนเปิดและหลังปิดร้านหนึ่งวัน | UAT-01 ใน B1 คง Not Executed |
+| DI-03 | Decision | เลือก feature ที่ใช้ทดสอบทั้งภาค | S1-B ขั้นที่ 1 · W01 · W02 | SRS ระบุ UC-07 เป็น Critical · หลักฐานหน้างาน EV-06, EV-07 | ทีม Ti | 30 ก.ย. 2569 | Decided | ใช้ UC-07 ยืนยันจ่ายสินค้าและตัดสต็อก | ทุกงานส่วน B ใช้ slice เดียวกัน |
+| DI-04 | Decision | รุ่นของระบบที่ใช้รันชุดอ้างอิง | `03-test-execution/execution-report.md` | `main` (`ca3ddb4`) รีเซ็ตฐานข้อมูลล้มเรื่อง latin1 · รุ่นส่งเล่ม `29bd025` แก้แล้ว | ตรัยรัตน์ | 23 ต.ค. 2569 | Decided | ใช้ `29bd025` (branch `final-book-20261022`) | ผลทุกข้อใน B1 อ้างรุ่นนี้ |
+| DI-05 | Decision | Gate A | W04 `04-gate-a-decision.md` | Review Log RV-01..07 · RTM 8 แถว | ทีม Ti (reviewer พนาวุฒน์) | 23 ต.ค. 2569 | Decided | Conditional ตามเงื่อนไข GA-01, GA-02 | FR-06, NFR-04 พร้อม · FR-05, BR-02 มีเงื่อนไข |
+| DI-06 | Open Issue | CaseX HLD: ใครเป็นเจ้าของการคำนวณ Overall Readiness / ตรวจสิทธิ์ที่ C-05 หรือไม่ | W05 DQ-01..05 | CaseX HLD v0.9 D-03, D-04, I-03, I-04, I-06 | ผู้จัดทำ HLD (ผู้สอน) | ก่อน Detailed Design | Open | รอคำตอบในคาบ | Gate B ของ Case X |

@@ -22,9 +22,9 @@
 | รายการ | URL / Reference | หมายเหตุ |
 |---|---|---|
 | ENGSE212 project repository | https://github.com/TriratWongsit/soml-pos-inventory | default branch `main` · รุ่นส่งเล่ม branch `final-book-20261022` commit `29bd025` |
-| Issue/Project board | [กรอก] | ถ้ามี |
-| Prototype/Demo | [กรอก] | ถ้ามี |
-| Course materials / LMS | [กรอก] | ห้ามใส่ credential |
+| Issue/Project board | ไม่มี | ทีมติดตามงานในบันทึก `บันทึกต่อเนื่องงาน.md` ของ repo โครงงาน |
+| Prototype/Demo | https://triratwongsit.github.io/soml-pos-inventory/ | หน้า Screen Flow ของอำพร OMS (GitHub Pages) |
+| Course materials / LMS | https://se-rmutl.github.io/engse601/ | ห้ามใส่ credential |
 | Repository นี้ | https://github.com/Saihakuto/engse601-2569-Ti | Team V&V Evidence Repo |
 
 ## Critical context เริ่มต้น
