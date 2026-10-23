@@ -1,11 +1,6 @@
 req_id,acceptance_criteria,planned_test_level,planned_evidence,design_component,observation_point,evidence_status,blocked_by
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
+FR-X-05,AC-X-05,System (ตอนนี้) · Component เมื่อย้ายตาม DR-01,ภาพหน้าจอสถานะรวม,C-01,ปลายทางผู้ใช้,Not Ready,DQ-01
+FR-X-03,AC-X-02,Integration,ผลเรียก I-02/I-03 ด้วยทรัพยากรที่ไม่มีเจ้าของ,C-04 · C-10,ระหว่างส่วนประกอบ,Not Ready,DQ-02
+BR-X-02,AC-X-04,System + API,ผลเรียก I-04 ด้วยผู้ใช้ที่ไม่ใช่ Owner,C-02 · C-05,ยังระบุไม่ได้,Not Ready,DQ-03
+FR-X-02,AC-X-03,Integration,ข้อมูลออกของ I-06,C-07,ระหว่างส่วนประกอบ,Not Ready,DQ-04
+FR-X-09,AC-X-09,Integration,แถวประวัติหลังบันทึกผลการพิจารณา,C-05 · C-10,ภายในส่วนประกอบ,Planned,DQ-05

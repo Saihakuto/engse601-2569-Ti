@@ -1,0 +1,34 @@
+$ date
+Fri Oct 23 21:15:50 +07 2026
+$ git log -1 --format='%h %ci'   (soml-pos-inventory · soml/ identical to origin/final-book-20261022 29bd025)
+06e339a 2026-10-22 18:53:32 +0700
+$ node --version
+v22.23.2
+$ npx jest backend/tests/integration/dispatch.test.js --selectProjects integration --runInBand --verbose
+Running one project: integration
+PASS integration backend/tests/integration/dispatch.test.js
+  POST /api/orders/:id/dispatch — ทางหลัก
+    ✓ พนักงานขายทำไม่ได้ (403) — เจ้าของงานคือคลัง (BR-02) (16 ms)
+    ✓ จ่ายสำเร็จ: สถานะ delivered ผู้จ่าย เวลา สต็อกลด movement และประวัติ ครบในครั้งเดียว (22 ms)
+    ✓ จ่ายได้จากสถานะ picking ด้วย (13 ms)
+    ✓ ไม่พบคำสั่งซื้อ → 404 (2 ms)
+  E1 จ่ายซ้ำ [AC-07 · TC-06 · NFR-04]
+    ✓ กดยืนยันใบเดียวกันสองครั้งต่อเนื่อง: ครั้งที่สองถูกปฏิเสธ (13 ms)
+    ✓ ผ่าน HTTP: สองเครื่องกดพร้อมกัน สำเร็จหนึ่ง ปฏิเสธหนึ่ง สต็อกหักครั้งเดียว (11 ms)
+    ✓ เรียกบริการตัดสต็อกตรง ๆ 10 ธุรกรรมพร้อมกัน: สำเร็จหนึ่งเดียว (เหตุผลที่แยกโมดูล — 3.6) (27 ms)
+  E2 สต็อกไม่พอ [AC-08]
+    ✓ ธุรกรรมถูกยกเลิกทั้งหมด: สถานะ สต็อก และประวัติไม่เปลี่ยน (9 ms)
+    ✓ ค่าขอบเขต: สต็อกพอดีกับจำนวนที่สั่ง ต้องจ่ายได้และเหลือศูนย์ (Boundary Value — 3.10.1) (9 ms)
+    ✓ หลายรายการ: รายการที่สองไม่พอ → รายการแรกที่หักไปแล้วต้องถูกคืน (14 ms)
+  K-1 คอมเมนต์กรรมการ: สองใบต่างกัน สินค้าตัวเดียวกัน สต็อก 1 กดจ่ายพร้อมกัน
+    ✓ ผ่าน HTTP: สำเร็จหนึ่งใบ อีกใบสต็อกไม่พอ สต็อกเหลือ 0 ไม่ติดลบ (16 ms)
+    ✓ ตรง ๆ 10 ใบพร้อมกัน สต็อก 3: สำเร็จ 3 ใบพอดี สต็อกเหลือ 0 (63 ms)
+  BR-02 ตัวเลขในระบบตรงกับของจริง
+    ✓ ยอดใน products = balance_after ล่าสุดเสมอ หลังจ่ายหลายใบ (23 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       13 passed, 13 total
+Snapshots:   0 total
+Time:        0.899 s, estimated 1 s
+Ran all test suites matching /backend\/tests\/integration\/dispatch.test.js/i.
+exit code: 0

@@ -1,0 +1,20 @@
+$ date
+Fri Oct 23 21:20:50 +07 2026
+$ git log -1 --format='%h %ci'   (soml · same soml/ as origin/final-book-20261022 29bd025)
+06e339a 2026-10-22 18:53:32 +0700
+$ SOML_DIR=<soml> npx jest --config jest.dsp.config.js --runInBand --verbose   (globalSetup = soml db/reset-db.sh test)
+PASS ../../../../../engse601-2569-Ti/03-test-execution/tests/integration/dsp-reference.test.js
+  ✓ DSP-01 ยืนยันใบเดิมครั้งที่สอง → 409 แจ้งว่าถูกจ่ายไปแล้ว สต็อกถูกหักครั้งเดียว (28 ms)
+  ✓ DSP-02 สองคำขอพร้อมกันต่อใบเดียว → สำเร็จ 1 ปฏิเสธ 409 อีก 1 สต็อกหักครั้งเดียว เคลื่อนไหว 1 แถว (14 ms)
+  ✓ DSP-03 สต็อก 2 สั่ง 5 → 409 สต็อกไม่พอ สถานะยังรอจ่าย สต็อกยัง 2 ไม่มีเคลื่อนไหว ไม่มีประวัติจ่าย (11 ms)
+  ✓ DSP-04 สองรายการ รายการแรกพอ รายการที่สองสต็อก 0 → 409 ทั้งสองรายการไม่ถูกหัก สถานะไม่เปลี่ยน (14 ms)
+  ✓ DSP-05 ค่าขอบ สต็อก 5 สั่ง 5 → จ่ายได้ เหลือ 0 (11 ms)
+  ✓ DSP-06 ค่าขอบ สต็อก 4 สั่ง 5 → 409 สต็อกยัง 4 ไม่ติดลบ (9 ms)
+  ✓ DSP-07 พนักงานขายเรียกเส้นทางยืนยันจ่ายตรง → 403 สต็อกและสถานะไม่เปลี่ยน (5 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       7 passed, 7 total
+Snapshots:   0 total
+Time:        0.704 s
+Ran all test suites.
+exit code: 0

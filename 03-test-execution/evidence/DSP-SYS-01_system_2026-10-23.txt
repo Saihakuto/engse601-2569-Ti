@@ -1,0 +1,15 @@
+# รอบที่ 1 เวลา 21:16 ผ่าน (ORD-20261023-0002 · 101017 คงเหลือ 1200 -> 1198) แต่ภาพหน้าจอมีชื่อพนักงานร้าน จึงลบภาพทิ้งและรันใหม่โดยปิดชื่อด้วย mask
+# รอบที่ 2 ด้านล่าง ใช้ภาพจากรอบนี้
+$ date
+Fri Oct 23 21:16:35 +07 2026
+$ git log -1 --format='%h'  (soml · same soml/ as origin/final-book-20261022 29bd025)
+06e339a
+$ npx playwright test --config pw.config.js   (testDir = 03-test-execution/tests/system · baseURL http://localhost:5173 · Chromium 1280x800)
+
+Running 1 test using 1 worker
+
+DSP-SYS-01 ORD-20261023-0003 · SKU 101017 คงเหลือก่อนจ่าย 1198 หลังจ่าย 1196 (ต่าง 2)
+  ✓  1 [chromium] › ../../../../../engse601-2569-Ti/03-test-execution/tests/system/DSP-SYS-01.spec.js:25:1 › DSP-SYS-01 พนักงานคลังยืนยันจ่ายผ่านหน้าจอ สต็อกลดตามจำนวน และเปิดใบเดิมซ้ำจ่ายไม่ได้ (4.0s)
+
+  1 passed (5.4s)
+exit code: 0

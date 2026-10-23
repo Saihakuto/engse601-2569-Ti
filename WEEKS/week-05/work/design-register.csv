@@ -1,6 +1,5 @@
 doc_name,version,status,owner,file_path,used_to_check
-ENGSE206_CaseX_SRS_v1.0_TH,1.0,Review Candidate,ENGSE206,,ความต้องการต้นทาง
-ENGSE601_CaseX_HLD_v0_9_Draft_for_Review_TH,0.9,Draft,ผู้สอน,,เอกสารออกแบบที่ถูกทบทวน
-,,,,,
-,,,,,
-,,,,,
+ENGSE_CaseX_SRS_v1_1_Practical_TH,1.1,Review Candidate,ENGSE206 / ผู้สอน,ENGSE601_S1_Student_Pack (LMS),ความต้องการต้นทาง (ทีมมีฉบับ 1.1 ซึ่งใหม่กว่า 1.0 ที่ HLD อ้าง)
+ENGSE601_CaseX_HLD_v0_9_Draft_for_Review_TH,0.9,Draft,ผู้สอน,ENGSE601_S1_Student_Pack (LMS),เอกสารออกแบบที่ถูกทบทวน ตารางที่ 2 3 4 5 และหัวข้อ 7
+Use Case SRS อำพร OMS,2.0,Review Candidate,ทีม Ti,repo โครงงาน Documents/UseCaseX_SOML_v2.0_TH.md,บันทึกการถ่ายโอนไปโครงงาน
+ปริญญานิพนธ์บทที่ 3 (ออกแบบ) และภาคผนวก ข,ฉบับส่งเล่ม 29bd025,Existing,ทีม Ti,repo โครงงาน Documents/รูปเล่ม,บันทึกการถ่ายโอนไปโครงงาน

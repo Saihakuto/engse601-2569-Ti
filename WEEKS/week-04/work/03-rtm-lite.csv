@@ -1,2 +1,9 @@
 Requirement_ID,Requirement_Source_Version,Linked_Risk_or_Stakeholder,Acceptance_Basis,Planned_Test_Level,Planned_Evidence,Evidence_Status,Owner,Open_Issue_or_Next_Action
-[กรอก],[กรอก],[กรอก],[AC-...],[Component/Integration/System/UAT/Review],[กรอก],[Existing/Planned/Not Ready/Not Executed],[กรอก],[กรอก]
+FR-05,Use Case SRS v2.0 §4.7,QR-01 · พนักงานคลัง,AC-05.1 AC-05.2,System,DSP-SYS-01 ภาพหน้าจอ,Planned,ตรัยรัตน์,OQ-01 บทบาทผู้จัดการ
+FR-05,Use Case SRS v2.0 §4.7,QR-01 · RV-06,AC-05.3,Integration (API),DSP-07 ผลเทอร์มินัล,Planned,ตรัยรัตน์,—
+FR-06,Use Case SRS v2.0 §4.7 · AC-07,QR-01,AC-06.1,Integration,DSP-01 DSP-02 ผลเทอร์มินัล,Planned,ตรัยรัตน์,—
+FR-06,Use Case SRS v2.0 §4.7 · AC-08,QR-02,AC-06.2 AC-06.3,Integration,DSP-03 DSP-04 ผลเทอร์มินัล,Planned,ตรัยรัตน์,—
+FR-06,Use Case SRS v2.0 §4.7,QR-02 · RV-02,AC-06.4,Integration,DSP-05 DSP-06 ผลเทอร์มินัล,Planned,ตรัยรัตน์,—
+BR-02,Use Case SRS v2.0 §5.5,QR-02 · เจ้าของร้าน,AC-B2.1,Integration,dispatch.test.js ข้อ BR-02,Planned,ตรัยรัตน์,—
+BR-02,Use Case SRS v2.0 §5.5 · TBD-02,QR-02 · เจ้าของร้าน,AC-B2.2,UAT,ตารางนับสินค้าลงนามโดยเจ้าของร้าน,Not Ready,ตรัยรัตน์ + เจ้าของร้าน,OQ-02 จำนวนรายการและวันนับ
+NFR-04,Use Case SRS v2.0 §5.4,QR-01,AC-N4.1 AC-N4.2,Integration,dispatch.test.js 10 ธุรกรรมพร้อมกัน,Planned,ตรัยรัตน์,—

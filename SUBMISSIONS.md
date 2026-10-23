@@ -16,25 +16,25 @@
 
 | รายการ | กรอก |
 |---|---|
-| ชื่อทีม (`<TeamName>` ภาษาอังกฤษ ไม่มีช่องว่าง ใช้ชื่อเดียวกันทุกไฟล์) | [เช่น SmartQueue] |
-| โครงงาน ENGSE212 | [ชื่อโครงงาน] |
-| feature ที่ใช้ทดสอบ (เลือกในใบงานครั้งที่ 1) | [กรอก] |
-| ผู้ส่งหลัก | [ชื่อ–สกุล] |
-| ลิงก์ repo นี้ | [https://github.com/...] |
+| ชื่อทีม (`<TeamName>` ภาษาอังกฤษ ไม่มีช่องว่าง ใช้ชื่อเดียวกันทุกไฟล์) | Ti |
+| โครงงาน ENGSE212 | อำพร OMS ระบบจัดการคำสั่งซื้อและตรวจสอบคลังสินค้า ร้านวัสดุก่อสร้างอำพรคอนกรีต |
+| feature ที่ใช้ทดสอบ (เลือกในใบงานครั้งที่ 1) | UC-07 ยืนยันจ่ายสินค้าและตัดสต็อก (FR-05, FR-06, BR-02) |
+| ผู้ส่งหลัก | ทวีชัย ทิใจ |
+| ลิงก์ repo นี้ | https://github.com/Saihakuto/engse601-2569-Ti |
 
 ## งานที่ต้องส่ง
 
 | # | งาน | ไฟล์และตำแหน่ง | นับเข้า | สถานะ | หมายเหตุ |
 |---|---|---|---|---|---|
-| G1 | W01 Quality Risk Cards | `WEEKS/week-01/submission/W01_<TeamName>_Quality-Risk-Cards_v1.pdf` | จิตพิสัย | [ ] | |
-| G2 | W02 Project Quality Route Map | `WEEKS/week-02/submission/W02_<TeamName>_Project-Quality-Route-Map_v1.pdf` | จิตพิสัย | [ ] | |
-| G3 | W03 Revised Critical Requirements | `WEEKS/week-03/submission/W03_<TeamName>_Revised-Critical-Requirements_v1.pdf` | Gate A | [ ] | |
-| G4 | W04 SRS Review, RTM Lite และ Gate A | `WEEKS/week-04/submission/W04_<TeamName>_SRS-Review-and-RTM_v1.pdf` | Gate A | [ ] | |
-| G5 | W05 Requirement-to-Design Trace | `WEEKS/week-05/submission/W05_<TeamName>_Requirement-to-Design-Trace_v1.pdf` | Gate B | [ ] | |
-| G6 | ใบงานครั้งที่ 1 ส่วน B วางแผนก่อนทดสอบ | `01-plan/S1-B_<TeamName>.pdf` **เฉพาะส่วน B** | Evidence Pack | [ ] | |
-| G7 | ใบงานครั้งที่ 2 ส่วน B ออกแบบกรณีทดสอบ | `02-test-design/S2-B_<TeamName>.pdf` | Evidence Pack | [ ] | |
-| G8 | ใบงานรวม 3–4 ส่วน B1 รันชุดอ้างอิงของทีม | `03-test-execution/` คือ `execution-report.md` (หรือ `S34-B1_<TeamName>.pdf`) · `tests/` · `evidence/` | Evidence Pack | [ ] | |
-| G9 | ใบงานรวม 3–4 ส่วน B3 หน้าที่และการใช้ AI | [TEAM.md](TEAM.md) · [AI-LOG.md](AI-LOG.md) | Evidence Pack | [ ] | |
+| G1 | W01 Quality Risk Cards | [W01_Ti_Quality-Risk-Cards_v1.pdf](WEEKS/week-01/submission/W01_Ti_Quality-Risk-Cards_v1.pdf) | จิตพิสัย | ส่งแล้ว | 4 cards · จัดทำเป็นไฟล์ 23 ต.ค. |
+| G2 | W02 Project Quality Route Map | [W02_Ti_Project-Quality-Route-Map_v1.pdf](WEEKS/week-02/submission/W02_Ti_Project-Quality-Route-Map_v1.pdf) | จิตพิสัย | ส่งแล้ว | slice UC-07 |
+| G3 | W03 Revised Critical Requirements | [W03_Ti_Revised-Critical-Requirements_v1.pdf](WEEKS/week-03/submission/W03_Ti_Revised-Critical-Requirements_v1.pdf) | Gate A | ส่งแล้ว | FR-05 FR-06 BR-02 NFR-04 |
+| G4 | W04 SRS Review, RTM Lite และ Gate A | [W04_Ti_SRS-Review-and-RTM_v1.pdf](WEEKS/week-04/submission/W04_Ti_SRS-Review-and-RTM_v1.pdf) · ไฟล์ทำงานใน [work/](WEEKS/week-04/work/) | Gate A | ส่งแล้ว | Gate A = Conditional |
+| G5 | W05 Requirement-to-Design Trace | [W05_Ti_Requirement-to-Design-Trace_v1.pdf](WEEKS/week-05/submission/W05_Ti_Requirement-to-Design-Trace_v1.pdf) · [work/](WEEKS/week-05/work/) | Gate B | ส่งแล้ว | Case X HLD v0.9 · ไม่ได้ตรวจข้ามทีม |
+| G6 | ใบงานครั้งที่ 1 ส่วน B วางแผนก่อนทดสอบ | [01-plan/S1-B_Ti.pdf](01-plan/S1-B_Ti.pdf) **เฉพาะส่วน B** | Evidence Pack | ส่งแล้ว | ตัดรหัสนักศึกษาออก · มี markdown คู่กัน |
+| G7 | ใบงานครั้งที่ 2 ส่วน B ออกแบบกรณีทดสอบ | [02-test-design/S2-B_Ti.pdf](02-test-design/S2-B_Ti.pdf) | Evidence Pack | ส่งแล้ว | ชุดอ้างอิง v1 · 8 กรณี |
+| G8 | ใบงานรวม 3–4 ส่วน B1 รันชุดอ้างอิงของทีม | [execution-report.md](03-test-execution/execution-report.md) · [tests/](03-test-execution/tests/) · [evidence/](03-test-execution/evidence/) | Evidence Pack | ส่งแล้ว | 8 Pass · UAT-01 Not Executed |
+| G9 | ใบงานรวม 3–4 ส่วน B3 หน้าที่และการใช้ AI | [TEAM.md](TEAM.md) · [AI-LOG.md](AI-LOG.md) | Evidence Pack | ส่งแล้ว | |
 
 **สถานะที่ใช้:** `ส่งแล้ว` · `ส่งบางส่วน` (เขียนในหมายเหตุว่าขาดอะไร) · `ไม่ได้ทำ` (เขียนเหตุผล) · `แก้หลังส่ง` (บอกว่าแก้อะไร)
 
@@ -63,8 +63,8 @@
 
 ## ตรวจก่อนส่ง
 
-- [ ] ชื่อไฟล์ใช้ `<TeamName>` เดียวกันทุกไฟล์ และตรงกับตาราง
-- [ ] ไม่มีรหัสนักศึกษาและไม่มีส่วน A ใน repo
-- [ ] `03-test-execution/` มีโค้ดทดสอบใน `tests/` และผลการรันจริงใน `evidence/` (หรือ Not Executed พร้อมเหตุผล)
-- [ ] TEAM.md บอกว่าใครทำส่วนไหน · AI-LOG.md กรอกแล้ว หรือเขียนว่าไม่ได้ใช้
+- [x] ชื่อไฟล์ใช้ `<TeamName>` เดียวกันทุกไฟล์ และตรงกับตาราง
+- [x] ไม่มีรหัสนักศึกษาและไม่มีส่วน A ใน repo
+- [x] `03-test-execution/` มีโค้ดทดสอบใน `tests/` และผลการรันจริงใน `evidence/` (หรือ Not Executed พร้อมเหตุผล)
+- [x] TEAM.md บอกว่าใครทำส่วนไหน · AI-LOG.md กรอกแล้ว หรือเขียนว่าไม่ได้ใช้
 - [ ] สร้าง Release `engse601-submit` แล้ว

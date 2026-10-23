@@ -1,9 +1,6 @@
 tr_id,req_id,req_version,ac_id,what_design_must_support,component_id,component_name,evidence_location_in_design_doc,support_status,observation_point,linked_dr,linked_dq,notes
-TR-01,FR-X-05,1.0,AC-X-05,Derive Overall Readiness จาก Required Item Decisions,C-01,Event Request UI,HLD ตาราง 2 และ D-03,Not Supported,Service,DR-01,,ขัด BR-X-01
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
+TR-01,FR-X-05,1.1,AC-X-05,ระบบคำนวณ Overall Readiness จาก Required Items (BR-X-01 ระบุว่าเป็นหน้าที่ของ System),C-01,Event Request UI,HLD ตารางที่ 2 แถว C-01 และตารางที่ 5 D-03,Not Supported,ปลายทางผู้ใช้,DR-01,DQ-01,คำนวณบนหน้าจอจากรายการที่โหลดมา ไม่มี Service ใดเป็นเจ้าของ
+TR-02,FR-X-03,1.1,AC-X-02,ส่ง Resource Item แต่ละรายการถึง Owner ที่รับผิดชอบ และรู้เมื่อหาไม่พบ,C-04,Routing Service,HLD ตารางที่ 2 แถว C-04 · ตารางที่ 3 I-02 I-03,Partially Supported,ระหว่างส่วนประกอบ,DR-04,DQ-02,I-03 ไม่กำหนดค่าคืนเมื่อไม่พบ · I-02 คืนแค่จำนวนที่สำเร็จ
+TR-03,BR-X-02,1.1,AC-X-04,Owner ตัดสินได้เฉพาะรายการของตน รายการอื่นอ่านอย่างเดียว,C-02 · C-05,Owner Review UI · Decision Service,HLD ตารางที่ 2 แถว C-02 C-05 · ตารางที่ 5 D-04 · I-04,Not Supported,ยังระบุไม่ได้,DR-02,DQ-03,ควบคุมด้วยการซ่อนปุ่มบนหน้าจอเท่านั้น I-04 ไม่รับผู้กระทำ C-05 ไม่ได้ระบุว่าตรวจสิทธิ์
+TR-04,FR-X-02,1.1,AC-X-03,แสดงความพร้อมพร้อมแหล่งที่มาและเวลาที่ตรวจล่าสุด (NFR-X-02),C-07,Availability Adapter,HLD ตารางที่ 2 แถว C-07 · I-06 · D-02,Not Supported,ระหว่างส่วนประกอบ,DR-03,DQ-04,I-06 คืนแค่ available true/false ไม่มีแหล่งที่มาและเวลา แต่มี cache 15 นาที
+TR-05,FR-X-09,1.1,AC-X-09,บันทึกผู้กระทำ เหตุผล เวลา เลขรุ่น ของทุกผลการพิจารณา,C-05 · C-10,Decision Service · Data Store,HLD ตารางที่ 3 I-04 I-05 · ตารางที่ 4 แถวประวัติการทำงาน,Partially Supported,ภายในส่วนประกอบ,DR-05,DQ-05,I-04 มี reason แต่ไม่มีผู้กระทำและเลขรุ่น · ประวัติแยกตามตารางของแต่ละ Service
