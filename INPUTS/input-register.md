@@ -2,11 +2,11 @@
 
 | Input ID | Artifact | File path / URL | Version / date / commit | Owner | Status | Used by | Notes / change impact |
 |---|---|---|---|---|---|---|---|
-| IN-01 | Proposal | `INPUTS/proposal/` | [กรอก] | [กรอก] | Current | W01–W04 | [กรอก] |
-| IN-02 | Requirement/SRS | `INPUTS/requirements-srs/` | [กรอก] | [กรอก] | Current | W01–W04 | [กรอก] |
-| IN-03 | HLD/Detail Design | `INPUTS/design/` | [กรอก/Not Ready] | [กรอก] | [Draft/Not Ready] | W02, W04–W08 | [กรอก] |
-| IN-04 | ENGSE212 repository | [URL] | [branch + commit] | [กรอก] | Current | W02–W16 | [กรอก] |
-| IN-05 | Stakeholder/glossary/risk notes | [path/URL] | [กรอก] | [กรอก] | [Current/Draft] | W01–W04 | [กรอก] |
+| IN-01 | Proposal | `INPUTS/proposal/` | v1.0 / ปีการศึกษา 2569 | นายตรัยรัตน์ วงษ์สิทธิ์, นายพนาวุฒน์ อภิปสันติ | Current | W01–W04 | อ้างอิงจากบทที่ 1 (บทนำและเค้าโครงโครงงาน) |
+| IN-02 | Requirement/SRS | `INPUTS/requirements-srs/` | ภาคผนวก ก (SRS v1.0) / ปีการศึกษา 2569 | นายตรัยรัตน์ วงษ์สิทธิ์, นายพนาวุฒน์ อภิปสันติ | Current | W01–W04 | ข้อกำหนดความต้องการซอฟต์แวร์ฉบับสมบูรณ์ |
+| IN-03 | HLD/Detail Design | `INPUTS/design/` | บทที่ 3 และภาคผนวก ข (SDD) / 2569 | นายตรัยรัตน์ วงษ์สิทธิ์, นายพนาวุฒน์ อภิปสันติ | Current | W02, W04–W08 | สถาปัตยกรรม C4, ERD และพจนานุกรมข้อมูลฐานข้อมูล |
+| IN-04 | ENGSE212 repository | [URL] | ภาคผนวก ฉ / Branch: main |นายตรัยรัตน์ วงษ์สิทธิ์, นายพนาวุฒน์ อภิปสันติ | Current | W02–W16 | คลังเก็บโค้ดซอร์สโค้ดระบบอำพร OMS |
+| IN-05 | Stakeholder/glossary/risk notes | [path/URL] | หน้า น (ประมวลศัพท์) และบทที่ 3 | นายตรัยรัตน์ วงษ์สิทธิ์, นายพนาวุฒน์ อภิปสันติ | Current | W01–W04 | อภิธานศัพท์ คำย่อ และการวิเคราะห์ผู้มีส่วนได้ส่วนเสีย/หลักฐานหน้างาน |
 
 ## Status meaning
 
